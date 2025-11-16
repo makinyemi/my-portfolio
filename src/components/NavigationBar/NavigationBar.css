@@ -1,0 +1,20 @@
+.NavBarContainer {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #363636;
+}
+
+.Logo {
+  display: flex;
+  font-size: xx-large;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.Subscript {
+  font-size: small;
+}
+
+.NavMenuList {
+  gap: 1rem;
+}
