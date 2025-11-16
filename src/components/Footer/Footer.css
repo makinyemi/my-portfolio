@@ -1,0 +1,15 @@
+.FooterContainer {
+    border-top: 1px solid #363636;
+}
+
+.FooterBottomCopy {
+}
+
+.FooterContet {
+}
+
+.FooterContentLink {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
