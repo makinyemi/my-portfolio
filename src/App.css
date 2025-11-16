@@ -3,12 +3,12 @@
   height: 100vh;
   text-align: center;
   overflow: scroll;
-  color:white;
+  color: white;
   background-color: black;
 }
 
 .Section {
   flex-grow: 1;
-  overflow: auto;
+  overflow: scroll;
   align-content: center;
 }
