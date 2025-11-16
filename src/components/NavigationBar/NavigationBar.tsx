@@ -1,4 +1,4 @@
-import { Link } from 'react-router'
+import { NavLink } from 'react-router'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -18,22 +18,46 @@ const NavigationBar = () => {
         <NavigationMenuList className="NavMenuList">
           <NavigationMenuItem className="NavMenuItem">
             <NavigationMenuLink className="NavMenuLink">
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? 'active-link' : '')}
+                end
+              >
+                Home
+              </NavLink>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem className="NavMenuItem">
             <NavigationMenuLink className="NavMenuLink">
-              <Link to="about">About</Link>
+              <NavLink
+                to="about"
+                className={({ isActive }) => (isActive ? 'active-link' : '')}
+                end
+              >
+                About
+              </NavLink>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem className="NavMenuItem">
             <NavigationMenuLink>
-              <Link to="work">Work</Link>
+              <NavLink
+                to="work"
+                className={({ isActive }) => (isActive ? 'active-link' : '')}
+                end
+              >
+                Work
+              </NavLink>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem className="NavMenuItem">
             <NavigationMenuLink>
-              <Link to="projects">Projects</Link>
+              <NavLink
+                to="projects"
+                className={({ isActive }) => (isActive ? 'active-link' : '')}
+                end
+              >
+                Projects
+              </NavLink>
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
