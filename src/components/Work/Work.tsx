@@ -142,6 +142,7 @@ const Work = () => {
           </ul>
         </div>
       </section>
+      <br />
       <section className="WorkSection">
         <div>
           <h3>Willetts Technology</h3>
