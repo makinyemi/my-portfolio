@@ -10,7 +10,7 @@ import './NavigationBar.css'
 
 const NavigationBar = () => {
   return (
-    <div className="NavBarContainer bg-black text-white top-0 w-full h-25 p-4 border-b-2 shadow-2xl">
+    <div className="NavBarContainer bg-black text-white top-0 w-full p-4 border-b-2 shadow-2xl">
       <h1 className="Logo">
         Michael Akinyemi <sub className="Subscript">Software Engineer</sub>
       </h1>
